@@ -20,25 +20,25 @@ This Power BI dashboard provides a comprehensive analysis of Adventure Works' sa
 ## Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](Executive_Overview.png)
+![Executive Overview](Executive_Overview.jpg)
 
 ### Category Analysis
-![Category Analysis](Category_Analysis.png)
+![Category Analysis](Category_Analysis.jpg)
 
 ### Customer Analysis
-![Customer Analysis](Customer_Analysis.png)
+![Customer Analysis](Customer_Analysis.jpg)
 
 ### Geographical Analysis
-![Geographical Analysis](Geography_Analysis.png)
+![Geographical Analysis](Geography_Analysis.jpg)
 
 ### Product Performance
-![Product Performance](Product_Performance_Analysis.png)
+![Product Performance](Product_Performance_Analysis.jpg)
 
 ### Profitability Analysis
-![Profitability Analysis](Profitability_Analysis.png)
+![Profitability Analysis](Profitability_Analysis.jpg)
 
 ### Calendar Analysis
-![Calendar Analysis](Calender_Analysis.png)
+![Calendar Analysis](Calender_Analysis.jpg)
 
 > 💡 **Note:** To view dashboard screenshots, click any PDF link above, or open `Adventure_Works .pdf` for the full report.
 
