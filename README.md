@@ -7,11 +7,40 @@
 
 This Power BI dashboard provides a comprehensive analysis of Adventure Works' sales performance across FY 2023–2025. It covers executive KPIs, product performance, customer behaviour, geographic distribution, profitability, and calendar-based trends — all designed to support data-driven business decisions.
 
-- **Total Sales:** $25M  
-- **Total Profit:** $10M  
-- **Profit Margin:** 41.96%  
-- **Total Returns:** ~2K  
-- **Total Orders:** 84,174  
+| Metric | Value |
+|--------|-------|
+| Total Sales | $25M |
+| Total Profit | $10M |
+| Profit Margin | 41.96% |
+| Total Returns | ~2K |
+| Total Orders | 84,174 |
+
+---
+
+## Dashboard Preview
+
+### Executive Overview
+![Executive Overview](Executive_Overview.pdf)
+
+### Category Analysis
+![Category Analysis](Category_Analysis.pdf)
+
+### Customer Analysis
+![Customer Analysis](Customer_Analysis.pdf)
+
+### Geographical Analysis
+![Geographical Analysis](Geographical_Analysis.pdf)
+
+### Product Performance
+![Product Performance](Product_Performance_Analysis.pdf)
+
+### Profitability Analysis
+![Profitability Analysis](Profitability_Analysis.pdf)
+
+### Calendar Analysis
+![Calendar Analysis](Calender_Analysis.pdf)
+
+> 💡 **Note:** To view dashboard screenshots, click any PDF link above, or open `Adventure_Works .pdf` for the full report.
 
 ---
 
@@ -66,6 +95,7 @@ Total Profit = [Total Sales] - [Total Cost]
 Profit Margin = DIVIDE([Total Profit], [Total Sales])
 MoM Growth Rate = DIVIDE([Total Sales] - [Previous Month Sales], [Previous Month Sales])
 Return Rate = DIVIDE([Total Returns], [Total Orders])
+Previous Month Sales = CALCULATE([Total Sales], DATEADD('Date'[Date], -1, MONTH))
 ```
 
 ---
@@ -82,10 +112,10 @@ The report is built on a **Star Schema** with the following structure:
 ## File Structure
 
 ```
-Adventure_Works/
+Adventure_works_sales/
 │
 ├── Adventure_Works.pbix                  # Main Power BI file
-├── Adventure_Works.pdf                   # Full dashboard export (all pages)
+├── Adventure_Works .pdf                  # Full dashboard export (all 7 pages)
 ├── README.md                             # Project documentation
 │
 ├── Executive_Overview.pdf                # Page 1 — KPIs & yearly trends
@@ -101,11 +131,11 @@ Adventure_Works/
 
 ## How to Use
 
-1. Open `Adventure_Works.pbix` in **Power BI Desktop** (version May 2023 or later recommended).
+1. Open `Adventure_Works.pbix` in **Power BI Desktop** (May 2023 or later recommended).
 2. Use the **Year** and **Region** slicers on each page to filter the data.
-3. Navigate between pages using the bottom tab bar or the page navigation buttons.
+3. Navigate between pages using the bottom tab bar or page navigation buttons.
 4. Hover over any visual for detailed tooltips.
-5. For the PDF version, open `Adventure_Works.pdf` to view a static export of all 7 pages, or open individual page PDFs for focused reference.
+5. Open `Adventure_Works .pdf` for a static export of all 7 pages, or open individual page PDFs for focused reference.
 
 ---
 
