@@ -82,30 +82,30 @@ The report is built on a **Star Schema** with the following structure:
 ## File Structure
 
 ```
-Adventure_Works_by_Aryan_Rai/
+Adventure_Works/
 │
-├── Adventure_Works_by_Aryan_Rai.pbix     # Main Power BI file
-├── Adventure_Works_by_Aryan_Rai.pdf      # Exported dashboard PDF
+├── Adventure_Works.pbix                  # Main Power BI file
+├── Adventure_Works.pdf                   # Full dashboard export (all pages)
 ├── README.md                             # Project documentation
-└── screenshots/
-    ├── 01_executive_overview.png
-    ├── 02_category_overview.png
-    ├── 03_customer_analysis.png
-    ├── 04_geographical_analysis.png
-    ├── 05_product_performance.png
-    ├── 06_profitability_analysis.png
-    └── 07_calendar_analysis.png
+│
+├── Executive_Overview.pdf                # Page 1 — KPIs & yearly trends
+├── Category_Analysis.pdf                 # Page 2 — Subcategory sales & margins
+├── Customer_Analysis.pdf                 # Page 3 — Customer segments & regions
+├── Geographical_Analysis.pdf            # Page 4 — Country & region breakdown
+├── Product_Performance_Analysis.pdf     # Page 5 — Product-level performance
+├── Profitability_Analysis.pdf           # Page 6 — Cost vs profit by category
+└── Calender_Analysis.pdf                # Page 7 — Monthly & seasonal trends
 ```
 
 ---
 
 ## How to Use
 
-1. Open `Adventure_Works_by_Aryan_Rai.pbix` in **Power BI Desktop** (version May 2023 or later recommended).
+1. Open `Adventure_Works.pbix` in **Power BI Desktop** (version May 2023 or later recommended).
 2. Use the **Year** and **Region** slicers on each page to filter the data.
 3. Navigate between pages using the bottom tab bar or the page navigation buttons.
 4. Hover over any visual for detailed tooltips.
-5. For the PDF version, open `Adventure_Works_by_Aryan_Rai.pdf` to view a static export of all 7 pages.
+5. For the PDF version, open `Adventure_Works.pdf` to view a static export of all 7 pages, or open individual page PDFs for focused reference.
 
 ---
 
